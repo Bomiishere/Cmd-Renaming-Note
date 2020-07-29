@@ -11,19 +11,19 @@ brew install rename
 #### Replace
 ```rename 's/sl_/softlipa_/' *.extension```
 
-#### delete
+#### Delete
 ```rename 's/sl_//' *.extension```
 
-#### find starts of string
+#### Find start of string
 ```rename 's/^sl_/softlipa_/' *.extension```
 
-#### find end of string
+#### Find end of string
 ```rename 's/$size_XL/size_L/' *.extension```
 
-#### group
+#### Group
 ```rename 's/(sl|slp)_/softlipa_/' *.extension```
 
-#### lower/upper case (?)
+#### Lower / Upper case (?)
 ```rename ‘y/A-Z/a-z/’ *.extension```
 ps.this will failed, use below cmd first
 ```
