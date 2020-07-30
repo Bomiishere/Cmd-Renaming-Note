@@ -1,4 +1,6 @@
 # Command Line Renaming 
+In order to cooperate with Zeplin, usually designers will provide different file name from the naming rules in project.
+For example, icon20.png -> icon_20.png, using in this situation.
 
 ## install rename cmd
 
